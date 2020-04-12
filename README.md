@@ -3,7 +3,7 @@ Clients API. To track a client name, age, description, and duration.
 
 ## Important Links
 
-- [Deployed API]
+- [Deployed API] https://mighty-brook-13806.herokuapp.com/
 - [Deployed Client]
 
 Github Repo
@@ -13,8 +13,11 @@ Github Repo
 
 
 - Front end Repo
-- 
+- https://github.com/tukrong/atenx-client
 
+## Version
+v1: Rails API for my Database.
+v2: Express for my Database.
 
 ## Planning Story:
 
@@ -26,6 +29,13 @@ Github Repo
 - Migrate my database.
 - Make sure I have all my references.
 
+
+## Future plans
+- I would like to transfer everything to use express database.
+- I would like to learn in the process how an express database works.
+- I would like to combine different front end framework and libraries to see
+how it interacts.
+- I would like to learn more on using react.
 
 ## Technologies Used:
 
