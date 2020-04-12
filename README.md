@@ -4,19 +4,19 @@ Clients API. To track a client name, age, description, and duration.
 ## Important Links
 
 - [Deployed API] https://mighty-brook-13806.herokuapp.com/
-- [Deployed Client]
+- [Deployed Client] https://tukrong.github.io/atenx-client/
 
 Github Repo
 
 - Api Repo
 - https://github.com/tukrong/atenx-api-rails
 
-
 - Front end Repo
 - https://github.com/tukrong/atenx-client
 
 ## Version
 v1: Rails API for my Database.
+
 v2: Express for my Database.
 
 ## Planning Story:
@@ -25,7 +25,7 @@ v2: Express for my Database.
 - Create my database.
 - Deploy my app.
 - Scaffold my resource to reference it to user.
-- Make sure everything is written correctly.
+- Make sure everything is correctly.
 - Migrate my database.
 - Make sure I have all my references.
 
@@ -36,6 +36,7 @@ v2: Express for my Database.
 - I would like to combine different front end framework and libraries to see
 how it interacts.
 - I would like to learn more on using react.
+- I would also like to try to use a different deploy database such as mongodb atlas. 
 
 ## Technologies Used:
 
@@ -55,3 +56,4 @@ I found out that it as a spelling error.
 
 
 ## ERD
+
