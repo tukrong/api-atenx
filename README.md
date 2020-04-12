@@ -5,12 +5,12 @@ Clients API. To track a client name, age, description, and duration.
 - Run `bundle install` to install all gems
 - run the command `rails server` to run local server
 
-## Important Links
+## Deployed Links
 
 - [Deployed API] https://mighty-brook-13806.herokuapp.com/
 - [Deployed Client] https://tukrong.github.io/atenx-client/
 
-Github Repo
+## Github Repo
 
 - Api Repo
 - https://github.com/tukrong/atenx-api-rails
@@ -59,8 +59,11 @@ file to inherit OpenReadController.
 I found out that it as a spelling error.
 
 ## Routes
-
-Your back-end README should have a catalog of routes (paths and methods) that the API expects
+https://mighty-brook-13806.herokuapp.com/sign-up
+https://mighty-brook-13806.herokuapp.com/sign-in
+https://mighty-brook-13806.herokuapp.com/sign-out
+https://mighty-brook-13806.herokuapp.com/change-password
+https://mighty-brook-13806.herokuapp.com/clients
 
 ## ERD
 ![](https://github.com/tukrong/api-atenx/blob/master/ERD_client.png)
