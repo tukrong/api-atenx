@@ -1,18 +1,18 @@
 # frozen_string_literal: true
 
-class ClientsController < ApplicationController
+class ClientsController < OpenReadController
   before_action :set_client, only: %i[show update destroy]
 
   # GET /clients
   def index
-    @clients = current_user.all
+    @clients = current_user.clients
 
     render json: @clients
   end
 
   # GET /clients/1
   def show
-    render json: @client
+    render json: @clients
   end
 
   # POST /clients
@@ -38,13 +38,15 @@ class ClientsController < ApplicationController
   # DELETE /clients/1
   def destroy
     @client.destroy
+
+    head :no_content
   end
 
   private
 
   # Use callbacks to share common setup or constraints between actions.
   def set_client
-    @client = current_user.climbs.find(params[:id])
+    @client = current_user.clients.find(params[:id])
   end
 
   # Only allow a trusted parameter "white list" through.
