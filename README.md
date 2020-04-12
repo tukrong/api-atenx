@@ -1,6 +1,10 @@
 # Application Title: A Description
 Clients API. To track a client name, age, description, and duration.
 
+## Instruction
+- Run `bundle install` to install all gems
+- run the command `rails server` to run local server
+
 ## Important Links
 
 - [Deployed API] https://mighty-brook-13806.herokuapp.com/
@@ -54,6 +58,9 @@ file to inherit OpenReadController.
 - I kept getting an error for undefined property of id which is use to update.
 I found out that it as a spelling error.
 
+## Routes
+
+Your back-end README should have a catalog of routes (paths and methods) that the API expects
 
 ## ERD
 ![](https://github.com/tukrong/api-atenx/blob/master/ERD_client.png)
